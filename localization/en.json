@@ -1,0 +1,15 @@
+{
+  "elder_name": "Keshav · village elder",
+  "elder": "The outpost needs grain and clean bandages. Take the bundle beside the store, then saddle Badal.\n\nFollow the ridge to the saffron flag. Watch the road before you cross it. Courage begins with care for the people who depend on you.",
+  "lookout_name": "The ridge lookout",
+  "lookout": "The valley opens below you. A patrol crosses the narrow path ahead.\n\nDismount here. Take a moment to observe their route before you continue.",
+  "observe_name": "A watchful moment",
+  "observe": "The guard walks across the ridge, looking in the direction of travel. Wait until the guard turns away.\n\nPress C to crouch, then move quietly past the patrol towards the fort. Keep your distance; running or riding makes you easier to spot.",
+  "guard_name": "Jiva · gate sentry",
+  "guard": "You have brought the village supplies safely. Suryaji is waiting inside the courtyard.\n\nThese walls are strong because the people beneath them stand together. Go on through.",
+  "oath_name": "Suryaji · outpost keeper",
+  "oath": "Grain for the watch, bandages for the wounded. You have served the village well.\n\nYour first duty is complete. Rest, explore the fort, and learn its paths. Next, we will need eyes along the western water route.",
+  "smith": "A sound blade starts with patient hands. Keep your shield close, and give yourself room to move.",
+  "trader": "The road is quieter at this hour. I have set aside the grain for the outpost.",
+  "villager": "The hills carry every sound. On the ridge, listen as carefully as you look."
+}

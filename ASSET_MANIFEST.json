@@ -1,0 +1,67 @@
+{
+  "verified_date": "2026-10-21",
+  "assets": [
+    {
+      "path": "art/textures/sparse_grass.jpg",
+      "name": "Sparse Grass",
+      "author": "Amal Kumar",
+      "source": "https://polyhaven.com/a/sparse_grass",
+      "license": "CC0-1.0",
+      "redistribution_permitted": true,
+      "bytes": 955945,
+      "sha256": "ae94f2b34597b9108eefd88217f55eccaec6d6b382e858a478ee92df90e66617"
+    },
+    {
+      "path": "art/textures/rock_face_03.jpg",
+      "name": "Rock Face 03",
+      "author": "Dario Barresi; Rico Cilliers",
+      "source": "https://polyhaven.com/a/rock_face_03",
+      "license": "CC0-1.0",
+      "redistribution_permitted": true,
+      "bytes": 927082,
+      "sha256": "ea48e0e47ad42c8bd312476178b1248ec66f0eb19156a26a1c222f2a40caaf2d"
+    },
+    {
+      "path": "art/fonts/CormorantGaramond.ttf",
+      "name": "Cormorant Garamond",
+      "author": "Cormorant Project Authors",
+      "source": "https://github.com/google/fonts/tree/main/ofl/cormorantgaramond",
+      "license": "OFL-1.1",
+      "redistribution_permitted": true,
+      "bytes": 1195560,
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+    },
+    {
+      "path": "art/fonts/DejaVuSans.ttf",
+      "name": "DejaVu Sans",
+      "author": "DejaVu contributors; Bitstream",
+      "source": "https://dejavu-fonts.github.io/",
+      "license": "Bitstream-Vera; DejaVu",
+      "redistribution_permitted": true,
+      "bytes": 759720,
+      "sha256": "b4c632e3cdf9acc7f28758fb5a323c8524d7fc6660d46904d9b6cbe2809c419c"
+    },
+    {
+      "path": "art/fonts/NotoSansDevanagari-Regular.ttf",
+      "name": "Noto Sans Devanagari",
+      "author": "Noto Project Authors",
+      "source": "https://github.com/notofonts/devanagari",
+      "license": "OFL-1.1",
+      "redistribution_permitted": true,
+      "bytes": 229336,
+      "sha256": "79a470365ccb210fa3c7d8d8ff2e005ef9d983cfd067f735a0caf7e15070ca9f"
+    },
+    {
+      "path": "audio/valley.wav",
+      "name": "Synthesized valley ambience",
+      "author": "MAVALA contributors",
+      "source": "original procedural audio",
+      "license": "MIT",
+      "redistribution_permitted": true,
+      "bytes": 529244,
+      "sha256": "22da912758664cdb95062a48886088e2a6333e2c07df2b9c4753c081cabcda2a"
+    }
+  ],
+  "original_geometry_license": "MIT",
+  "reference_images_redistributed": false
+}
