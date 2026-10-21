@@ -29,13 +29,24 @@ func ground(x: float, z: float, offset: float = 0) -> Vector3:
 func _ready() -> void:
 	rng.seed = 1646
 	stone = A.material(Color("827a6c"),load("res://art/textures/rock_face_03.jpg"))
-	wood = A.material(Color("3e3023"))
-	plaster = A.material(Color("ae9572"))
+	stone.normal_enabled = true
+	stone.normal_texture = load("res://art/textures/rock_normal.jpg")
+	stone.normal_scale = 0.65
+	stone.roughness_texture = load("res://art/textures/rock_roughness.jpg")
+	wood = A.material(Color("a29380"),load("res://art/textures/wood_color.jpg"))
+	wood.normal_enabled = true
+	wood.normal_texture = load("res://art/textures/wood_normal.jpg")
+	wood.normal_scale = 0.5
+	plaster = A.material(Color("c7b08e"),load("res://art/textures/plaster_color.jpg"))
+	plaster.normal_enabled = true
+	plaster.normal_texture = load("res://art/textures/plaster_normal.jpg")
+	plaster.normal_scale = 0.5
 	roof = A.material(Color("6f3c2b"))
 	terrain_material = ShaderMaterial.new()
 	terrain_material.shader = load("res://art/terrain.gdshader")
 	terrain_material.set_shader_parameter("ground_tex",load("res://art/textures/sparse_grass.jpg"))
 	terrain_material.set_shader_parameter("rock_tex",load("res://art/textures/rock_face_03.jpg"))
+	terrain_material.set_shader_parameter("rock_roughness",load("res://art/textures/rock_roughness.jpg"))
 	lighting()
 	terrain()
 	mountains()
@@ -76,6 +87,7 @@ func lighting() -> void:
 func terrain() -> void:
 	var st := SurfaceTool.new()
 	st.begin(Mesh.PRIMITIVE_TRIANGLES)
+	st.set_smooth_group(0)
 	for z in range(-166,92,3):
 		for x in range(-132,132,3):
 			var a := ground(x,z)

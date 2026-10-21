@@ -45,3 +45,11 @@ Press F3 during play for live Godot FPS, static engine allocations in MB and sub
 Grass, rocks and tree parts use MultiMesh instancing. Trees have a distance cutoff; ordinary frustum culling is provided by Godot. The single connected region is loaded at startup. Fine-grained instance culling, chunk streaming, terrain LOD, lightmap baking and merged masonry are not implemented. Numerous individual architecture/character meshes may limit draw-call performance; richer visual quality and performance certification remain production work.
 
 Export operations completed with exit code 0. Sandboxed editor/export runs printed denied debugger-listen socket messages; those are development-environment restrictions rather than GDScript compilation errors. Source gameplay tests and native startup do not require that debugger socket.
+
+## Graphics update verification (21 October 2026)
+
+Both scene suites pass after the material, animation and story changes. Added assertions cover joint counts, gallop blending, settled legs after stopping, bent running elbows, mounted knee posture, and the longest story dialogue fitting the viewport. Saves and quest event order remain unchanged.
+
+The browser game PCK was rebuilt with Godot 4.6.1. The final revision rendered its title and village scenes in the in-app Chromium browser without reported console warnings or errors. The plaster/timber materials were visually checked after restarting the preview. The screenshot is saved as build/graphics-update.png. A full browser mission playthrough and sustained animation assessment were not performed. Export logs contain environment-related debugger socket/editor-settings errors after successful pack writing. Native executable exports remain unchanged.
+
+The game pack is now approximately 13 MB uncompressed. The earlier build footprint table describes the original build only. FPS, GPU memory and cold-load time for the upgraded art remain unmeasured. Procedural characters are still visibly stylized. There is no skinned character asset, motion capture or terrain-aware hoof placement.

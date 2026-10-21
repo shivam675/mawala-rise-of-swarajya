@@ -60,6 +60,76 @@
       "redistribution_permitted": true,
       "bytes": 529244,
       "sha256": "22da912758664cdb95062a48886088e2a6333e2c07df2b9c4753c081cabcda2a"
+    },
+    {
+      "path": "art/textures/rock_normal.jpg",
+      "name": "rock_normal",
+      "author": "Dario Barresi; Rico Cilliers",
+      "source": "https://polyhaven.com/a/rock_face_03",
+      "license": "CC0-1.0",
+      "redistribution_permitted": true,
+      "bytes": 1146788,
+      "sha256": "c6423169583f31715cf0636954bad524e806848a5f2861fcea6794275f726ff0"
+    },
+    {
+      "path": "art/textures/rock_roughness.jpg",
+      "name": "rock_roughness",
+      "author": "Dario Barresi; Rico Cilliers",
+      "source": "https://polyhaven.com/a/rock_face_03",
+      "license": "CC0-1.0",
+      "redistribution_permitted": true,
+      "bytes": 638904,
+      "sha256": "9e3d9a2fd75244892e7acb6bab2eaed1279299510a7970672c0ee27ff1c19fea"
+    },
+    {
+      "path": "art/textures/cloth_normal.jpg",
+      "name": "cloth_normal",
+      "author": "Rob Tuytel",
+      "source": "https://polyhaven.com/a/fabric_pattern_07",
+      "license": "CC0-1.0",
+      "redistribution_permitted": true,
+      "bytes": 828071,
+      "sha256": "f6955bbdead9f023f2357f6f8808ed49627d10882cd2a3cb6b5a5ace155abc45"
+    },
+    {
+      "path": "art/textures/plaster_color.jpg",
+      "name": "plastered_wall color",
+      "author": "Amal Kumar",
+      "source": "https://polyhaven.com/a/plastered_wall",
+      "license": "CC0-1.0",
+      "redistribution_permitted": true,
+      "bytes": 617080,
+      "sha256": "73312ebb6eabc8e0a55addd8a82a8924bcd1e717b9488a887cc77f14b6ea554e"
+    },
+    {
+      "path": "art/textures/plaster_normal.jpg",
+      "name": "plastered_wall normal",
+      "author": "Amal Kumar",
+      "source": "https://polyhaven.com/a/plastered_wall",
+      "license": "CC0-1.0",
+      "redistribution_permitted": true,
+      "bytes": 1072153,
+      "sha256": "504e1f7baf4b68714c64b6670e7954bebe99efe31c49f7ce5a2089e4b76023b5"
+    },
+    {
+      "path": "art/textures/wood_color.jpg",
+      "name": "weathered_brown_planks color",
+      "author": "Dimitrios Savva; Rico Cilliers",
+      "source": "https://polyhaven.com/a/weathered_brown_planks",
+      "license": "CC0-1.0",
+      "redistribution_permitted": true,
+      "bytes": 226049,
+      "sha256": "94833feda44e025a9139f7b5723ea84e4f0258d3b54939a79e1013c133085e29"
+    },
+    {
+      "path": "art/textures/wood_normal.jpg",
+      "name": "weathered_brown_planks normal",
+      "author": "Dimitrios Savva; Rico Cilliers",
+      "source": "https://polyhaven.com/a/weathered_brown_planks",
+      "license": "CC0-1.0",
+      "redistribution_permitted": true,
+      "bytes": 223250,
+      "sha256": "8d38f02f121c0e58eaedc19cd668faea21381ae3ff4d5332cd90de75e6683393"
     }
   ],
   "original_geometry_license": "MIT",

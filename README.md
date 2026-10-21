@@ -2,6 +2,12 @@
 
 A playable Godot 4.6.1 prototype set in a fictional village and hill-fort region inspired by Maval and Torna, circa 1646. The supplied images guide the warm light, fort silhouettes, saffron accents and quiet typography. This is an early procedural-art game, not a finished cinematic production or an exact historical reconstruction.
 
+## Graphics and motion update
+
+The source and browser PCK now include locally stored CC0 stone, plaster, timber and cloth surface maps. Terrain uses three-axis rock projection and broad colour variation. Rounded character parts use smoother geometry. Player limbs have knee and elbow joints, counter-swinging arms and running lean. Badal blends walking and galloping with knee motion, tail movement and a matching rider bounce. The default window target is 1920 x 1080; graphics presets still control internal render scale.
+
+The English story connects the village’s donated supplies to Keshav’s wounded son. Quest events and save stages remain compatible. Marathi text remains an older draft. Characters remain procedural, with no imported skinned models, motion capture or foot placement on slopes. This is an incremental art upgrade, not Assassin’s Creed production quality. Native executables in `build/` remain the previous exports; rebuild them to include these changes.
+
 ## Play
 
 The generated browser build is in `build/web`. From this directory:

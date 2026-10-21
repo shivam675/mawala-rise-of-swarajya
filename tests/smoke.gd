@@ -12,6 +12,19 @@ func run() -> void:
 	assert(game.world != null, "Terrain must exist")
 	assert(game.player != null, "Animated player must exist")
 	assert(game.mission != null, "Quest must exist")
+	assert(game.player.visual.joints.size() == 4, "Player must have knee and elbow joints")
+	assert(game.player.horse.knees.size() == 4, "Horse must have four knee joints")
+	for i in 60:
+		game.player.horse.animate(1.0/60.0,17.0)
+	assert(game.player.horse.gait_speed > 16.0, "Horse must blend into gallop")
+	assert(game.player.horse.position.y >= 0, "Horse bounce must not sink below its root")
+	for i in 120:
+		game.player.horse.animate(1.0/60.0,0.0)
+	assert(absf(game.player.horse.legs[0].rotation.x) < 0.001, "Horse must settle after stopping")
+	game.player.visual.animate(0.1,7.0,true,false,false,false)
+	assert(game.player.visual.joints[2].rotation.x < 0, "Running must bend the elbow")
+	game.player.visual.animate(1.0,0,true,false,true,false)
+	assert(game.player.visual.joints[0].rotation.x > 1.0, "Rider must bend the knees")
 	assert(game.interface.toast.global_position.x>=0, "Toast must remain inside viewport")
 	assert(game.interface.stats.global_position.y>0, "Footer must remain inside viewport")
 	game.interface.show_settings()
@@ -20,6 +33,12 @@ func run() -> void:
 	assert(panel.global_position.x>=0 and panel.global_position.y>=0, "Settings must be centered inside viewport")
 	game.interface.close_overlay()
 	assert(game.world.height_at(0, -104) > game.world.height_at(0, 45), "Fort must stand above village")
+	game.interface.dialogue(game.dialogue.oath_name,game.dialogue.oath)
+	await process_frame
+	await process_frame
+	var dialogue_box = game.interface.overlay.get_child(1)
+	assert(dialogue_box.global_position.y+dialogue_box.size.y <= game.interface.root.size.y, "Long story dialogue must fit the viewport")
+	game.interface.close_overlay()
 	game.start_game(false)
 	for i in 90:
 		await physics_frame

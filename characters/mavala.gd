@@ -135,6 +135,11 @@ func _physics_process(delta: float) -> void:
 	visual.position.y = 1.04 if mounted else 0.0
 	visual.animate(delta,horizontal_speed,is_on_floor(),crouched,mounted,blocking)
 	horse.animate(delta,horizontal_speed)
+	if mounted:
+		visual.position.y += horse.position.y
+		visual.rotation.x = horse.rotation.x
+	else:
+		visual.rotation.x = 0
 	pivot.position.y = lerpf(pivot.position.y,2.7 if mounted else 1.65,delta*5)
 	pivot.rotation = Vector3(pitch,yaw,0)
 	arm.spring_length = lerpf(arm.spring_length,distance+(2.2 if mounted else 0),delta*4)

@@ -23,3 +23,14 @@ The [two user-supplied reference images](https://chatgpt.com/s/m_6ad845adbd14819
 Other requested sources reviewed: [Kenney Nature Kit](https://kenney.nl/assets/nature-kit) and [Quaternius Ultimate Nature](https://quaternius.com/packs/ultimatenature.html) individually identify CC0, but their models were not imported. [Poly Pizza](https://poly.pizza/) was reviewed without selecting an asset, and OpenGameArt timed out. No license was inferred for an entire marketplace.
 
 Godot Engine is MIT licensed. Its copyright notice is included in `GODOT_LICENSE.txt`; third-party engine notices are included in `GODOT_COPYRIGHT.txt` from [Godot's copyright listing](https://github.com/godotengine/godot/blob/4.6.1-stable/COPYRIGHT.txt). Both accompany packaged distributions.
+
+## Material upgrade, 21 October 2026
+
+All added maps are 1K JPEG originals from Poly Haven under [CC0](https://polyhaven.com/license). They are stored locally and need no runtime network access.
+
+- `rock_normal.jpg`, `rock_roughness.jpg`: [Rock Face 03](https://polyhaven.com/a/rock_face_03), Dario Barresi and Rico Cilliers.
+- `cloth_normal.jpg`: [Fabric Pattern 07](https://polyhaven.com/a/fabric_pattern_07), Rob Tuytel. Only the weave normal map is used, retaining the original costume colours.
+- `plaster_color.jpg`, `plaster_normal.jpg`: [Plastered Wall](https://polyhaven.com/a/plastered_wall), Amal Kumar.
+- `wood_color.jpg`, `wood_normal.jpg`: [Weathered Brown Planks](https://polyhaven.com/a/weathered_brown_planks), Dimitrios Savva and Rico Cilliers.
+
+ASSET_MANIFEST.json records sizes and SHA-256 hashes. Character and horse geometry remain original procedural work. No Assassin’s Creed assets are included.

@@ -1,15 +1,15 @@
 {
   "elder_name": "Keshav · village elder",
-  "elder": "The outpost needs grain and clean bandages. Take the bundle beside the store, then saddle Badal.\n\nFollow the ridge to the saffron flag. Watch the road before you cross it. Courage begins with care for the people who depend on you.",
+  "elder": "Last night, a runner reached us with an empty water flask. The watch at the fort has wounded men, and the road is no longer safe. My son is among them.\n\nEvery household gave a handful of grain. Take the bundle beside the store and mount Badal. Follow the ridge to the saffron flag. Bring our people home when you can.",
   "lookout_name": "The ridge lookout",
-  "lookout": "The valley opens below you. A patrol crosses the narrow path ahead.\n\nDismount here. Take a moment to observe their route before you continue.",
+  "lookout": "Below the ridge, smoke rises from the road camp. A patrol now holds the crossing that the runner used last night.\n\nBadal cannot pass quietly. Dismount at the flag and observe the route. The grain must reach the fort before another road closes.",
   "observe_name": "A watchful moment",
-  "observe": "The guard walks across the ridge, looking in the direction of travel. Wait until the guard turns away.\n\nPress C to crouch, then move quietly past the patrol towards the fort. Keep your distance; running or riding makes you easier to spot.",
+  "observe": "The guard turns at the bend. Beyond that bend, the northern ridge leads to the gate. There is room to pass if you wait.\n\nPress C to crouch. Move when the guard faces away, and keep your distance. You carry food for the wounded, not a reason to fight.",
   "guard_name": "Jiva · gate sentry",
-  "guard": "You have brought the village supplies safely. Suryaji is waiting inside the courtyard.\n\nThese walls are strong because the people beneath them stand together. Go on through.",
+  "guard": "Keshav sent you? His son reached us before dawn. He is alive. The bandages you carry will do more for him than another sword.\n\nSuryaji waits in the courtyard. Go through the arch. I will watch the road behind you.",
   "oath_name": "Suryaji · outpost keeper",
-  "oath": "Grain for the watch, bandages for the wounded. You have served the village well.\n\nYour first duty is complete. Rest, explore the fort, and learn its paths. Next, we will need eyes along the western water route.",
-  "smith": "A sound blade starts with patient hands. Keep your shield close, and give yourself room to move.",
-  "trader": "The road is quieter at this hour. I have set aside the grain for the outpost.",
-  "villager": "The hills carry every sound. On the ridge, listen as carefully as you look."
+  "oath": "We counted enough grain for one more night. Now the watch can stay, and the wounded can recover. Tell Keshav his son asked for him.\n\nRemember what brought you here: a village shared what little it had. Swarajya must mean that we protect those people in return. That is your first oath.\n\nRest and explore the fort. The western water route will be our next concern.",
+  "smith": "That blade belonged to a farmer before it belonged to a fighter. Keep it sheathed until you need it. A safe delivery matters more than a duel.",
+  "trader": "I put my own grain in that bundle. Leave the sack at the fort. Bring me news of the people there.",
+  "villager": "Keshav waited by the road all night. If you find his son, tell him his father kept the lamp burning."
 }

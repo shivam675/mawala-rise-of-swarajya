@@ -1,15 +1,69 @@
 {
   "name": "The First Oath",
-  "disclaimer": "A fictional training mission, inspired by the Maval region around 1646.",
+  "disclaimer": "An original fictional story set in a region inspired by Maval, circa 1646.",
   "stages": [
-    {"event":"elder", "title":"A village awakens", "detail":"Speak with Keshav, the village elder.", "x":10,"z":34},
-    {"event":"supplies", "title":"Carry what matters", "detail":"Collect the grain and bandages beside the store.", "x":-9,"z":43},
-    {"event":"mount", "title":"The mountain road", "detail":"Mount Badal and follow the ridge to the lookout.", "x":10,"z":21},
-    {"event":"lookout", "title":"Above the valley", "detail":"Ride to the saffron flag at the lookout.", "x":-5.7,"z":-27},
-    {"event":"observe", "title":"Watch before you move", "detail":"Dismount and observe the guarded route from the lookout.", "x":-5.7,"z":-27},
-    {"event":"pass_patrol", "title":"Leave no trace", "detail":"Crouch past the patrol. Reach the northern ridge unseen.", "x":-7.4,"z":-70},
-    {"event":"gate", "title":"The stone threshold", "detail":"Speak with Jiva at the fort entrance.", "x":0,"z":-79},
-    {"event":"oath", "title":"The first oath", "detail":"Deliver the supplies to Suryaji in the courtyard.", "x":-5,"z":-99},
-    {"event":"complete", "title":"A beginning, not an ending", "detail":"First Oath complete. Next: scout the western water route. Explore freely.", "x":-15,"z":-114}
+    {
+      "event": "elder",
+      "title": "A village awakens",
+      "detail": "Speak with Keshav, the village elder.",
+      "x": 10,
+      "z": 34
+    },
+    {
+      "event": "supplies",
+      "title": "Carry what matters",
+      "detail": "Collect the village grain and bandages for the wounded at the fort.",
+      "x": -9,
+      "z": 43
+    },
+    {
+      "event": "mount",
+      "title": "The mountain road",
+      "detail": "Mount Badal and follow the ridge to the lookout.",
+      "x": 10,
+      "z": 21
+    },
+    {
+      "event": "lookout",
+      "title": "Above the valley",
+      "detail": "Ride to the saffron flag at the lookout.",
+      "x": -5.7,
+      "z": -27
+    },
+    {
+      "event": "observe",
+      "title": "Watch before you move",
+      "detail": "Dismount and observe the guarded route from the lookout.",
+      "x": -5.7,
+      "z": -27
+    },
+    {
+      "event": "pass_patrol",
+      "title": "Leave no trace",
+      "detail": "Crouch past the patrol. Reach the northern ridge unseen.",
+      "x": -7.4,
+      "z": -70
+    },
+    {
+      "event": "gate",
+      "title": "The stone threshold",
+      "detail": "Speak with Jiva at the fort entrance.",
+      "x": 0,
+      "z": -79
+    },
+    {
+      "event": "oath",
+      "title": "The first oath",
+      "detail": "Deliver the supplies to Suryaji and learn what happened to Keshav’s son.",
+      "x": -5,
+      "z": -99
+    },
+    {
+      "event": "complete",
+      "title": "A beginning, not an ending",
+      "detail": "First Oath complete. Next: scout the western water route. Explore freely.",
+      "x": -15,
+      "z": -114
+    }
   ]
 }

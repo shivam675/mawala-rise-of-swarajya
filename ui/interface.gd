@@ -350,7 +350,7 @@ func show_settings() -> void:
 
 func show_credits() -> void:
 	var content := panel("A land worth remembering")
-	var words := make_label("Original procedural characters, horse, architecture and vegetation.\n\nCC0 textures: Poly Haven — Sparse Grass; Rock Face 03.\nFont: Cormorant Garamond, SIL Open Font License.\nEngine: Godot, MIT license.\n\nInspired by Torna and the Maval region around 1646. The village, fort layout, people, dialogue and First Oath mission are fictional. This is not an exact reconstruction.\n\nSee ASSET_CREDITS.md and HISTORY_REFERENCES.md for source links and license details.",16)
+	var words := make_label("Original procedural characters, horse, architecture and vegetation.\n\nCC0 textures: Poly Haven — Sparse Grass; Rock Face 03; Fabric Pattern 07; Plastered Wall; Weathered Brown Planks.\nFont: Cormorant Garamond, SIL Open Font License.\nEngine: Godot, MIT license.\n\nInspired by Torna and the Maval region around 1646. The village, fort layout, people, dialogue and First Oath mission are fictional. This is not an exact reconstruction.\n\nSee ASSET_CREDITS.md and HISTORY_REFERENCES.md for source links and license details.",16)
 	words.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	words.custom_minimum_size.x = 565
 	content.add_child(words)
